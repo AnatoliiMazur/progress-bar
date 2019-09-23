@@ -1,0 +1,16 @@
+.my-bar {
+	border: 1px solid red;
+}
+
+.my-bar + .my-bar {
+	margin-top: 15px;
+}
+
+.line {
+	width: 0;
+	height: 20px;
+	transition: 4s all ease;
+	display:flex;
+	background: yellow;
+}
+
