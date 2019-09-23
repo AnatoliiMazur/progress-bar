@@ -1,7 +1,6 @@
 (function () {
 	var bars = [];
 
-	// This is simple progress bar
 	function MyProgressBar( element ) {
 		if ( !(element instanceof HTMLElement) ) {
 			throw new Error( "element should be HTMLElement" );
